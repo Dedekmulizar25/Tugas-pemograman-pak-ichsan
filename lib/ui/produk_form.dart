@@ -39,7 +39,7 @@ class _ProdukFormState extends State<ProdukForm> {
 
   _textboxNamaProduk() {
     return TextField(
-      decoration: const InputDecoration(labelText: "Nama Produk"),
+      decoration: const InputDecoration(labelText: "Nama Produkk"),
       controller: _namaProdukTextboxController,
     );
   }
