@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/ui/produk_page.dart';
+import 'package:flutter_app/ui/produk_form.dart';
+// import 'package:flutter_app/ui/produk_page.dart';
 // import 'package:flutter_app/ui/Produk_page.dart';
 // import 'package:flutter_app/column_widget.dart';
 // import 'package:flutter_app/row_widget.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'app pertama',
-      home: ProdukPage(),
+      home: ProdukForm(),
     );
   }
 }
