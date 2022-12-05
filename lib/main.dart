@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'app pertamaa',
+      title: 'app pertama',
       home: ProdukForm(),
     );
   }
