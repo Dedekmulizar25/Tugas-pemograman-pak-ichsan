@@ -10,7 +10,7 @@ class HelloWorld extends StatelessWidget {
         title: const Text('belajar flutter'),
       ),
       body: const Center(
-        child: Text('hello wolrd'),
+        child: Text('helloo wolrdd'),
       ),
     );
   }
