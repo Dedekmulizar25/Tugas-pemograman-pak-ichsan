@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/ui/produk_form.dart';
-// import 'package:flutter_app/ui/produk_page.dart';
-// import 'package:flutter_app/ui/Produk_page.dart';
-// import 'package:flutter_app/column_widget.dart';
-// import 'package:flutter_app/row_widget.dart';
-// import 'package:flutter_app/ui/produk_form.dart';
+import 'package:flutter_app/ui/chip.dart';
+// import 'package:flutter_app/ui/switch_app.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -15,9 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'app pertama',
-      home: ProdukForm(),
+      home: ChipApp(),
     );
   }
 }
